@@ -22,7 +22,8 @@ h1 {
     font-size: 50px;
 }
 
-button.start-btn {
+button.start-btn 
+{
     position: absolute;
     margin: auto;
     background: pink;
@@ -34,8 +35,10 @@ button.start-btn {
     margin-top: 100px;
     font-size: 40px;
 }
-.start-btn button:active{
-    position: absolute;
+.start-btn button:active
+{
+    background: black;
+    /*position: absolute;
     margin: auto;
     background: pink;
     left: 0;
@@ -45,6 +48,9 @@ button.start-btn {
     width: 450px;
     margin-top: 100px;
     font-size: 40px;
+    outline-style: solid;
+    outline-color: red;*/
+    /*outline-width: medium;*/
 }
 
 button.new-game-btn {
@@ -74,7 +80,7 @@ button.new-game-btn {
     cursor: pointer;
     width: 50%;
     display: block;
-    margin-top: 20px;
+    margin-top: 20px;   
 }
 
 

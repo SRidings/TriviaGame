@@ -5,8 +5,8 @@ let app = function () {
         'Incorrect Answers': 0,
         'Unanswered': 0
     };
-    const delayTimeoutOrWrong = 30;
-    const delayBetweenQuestions = 3;
+    var delayTimeoutOrWrong = 30;
+    var delayBetweenQuestions = 3;
 
     var mainTimer;
     var timeLeft;
@@ -253,7 +253,7 @@ let app = function () {
             var src = `<div id="game_timer"><div class="t-remaining">Time Remaining: ${stopTime.value} Seconds<div></div>`;
             src += `<div id="game_question"><h4>${action}</h4><br>
                     <span class="correct-answer">
-                    The Correct Answer was:${rightAnswer.answer}</span>
+                    The Correct Answer was: ${rightAnswer.answer}</span>
                     
                     </div>`;
 
@@ -280,7 +280,7 @@ let app = function () {
 
         }
         else if (ansOpt === 'timeout') {
-            stopTime = {value : 0}
+            stopTime = {value: 0}
             doAction('Out of Time!', stopTime);
             Statistics["Unanswered"] += 1;
             countDownTimer(delayBetweenQuestions, false, runGame);
