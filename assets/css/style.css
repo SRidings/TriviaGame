@@ -1,0 +1,111 @@
+body {
+    background-image: url("../images/80s background.jpg");
+    background-color: #cccccc;
+    font-family: 'Arima Madurai', cursive;
+}
+
+#square {
+    width: 640px;
+    height: 580px;
+    background: #FFFF99;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+}
+
+button.start-btn {
+    position: absolute;
+    margin: auto;
+    background: pink;
+    left: 0;
+    right: 0;
+    border: 3px solid blue;
+    height: 50px;
+    width: 450px;
+    margin-top: 100px;
+    font-size: 40px;
+}
+.start-btn button:active{
+    position: absolute;
+    margin: auto;
+    background: pink;
+    left: 0;
+    right: 0;
+    border: 3px solid blue;
+    height: 50px;
+    width: 450px;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+button.new-game-btn {
+    position: absolute;
+    margin: auto;
+    background: pink;
+    left: 0;
+    right: 0;
+    border: 3px solid blue;
+    height: 50px;
+    width: 450px;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.btn-group {margin-top: 50px}
+
+.btn-group button {
+    margin: auto;
+    left: 0;
+    right: 0;
+    background-color: #FFFF99;
+    border: none;
+    font-size: 20px;
+
+    padding: 10px 24px;
+    cursor: pointer;
+    width: 50%;
+    display: block;
+    margin-top: 20px;
+}
+
+
+.btn-group button:hover {
+
+    margin: auto;
+    left: 0;
+    right: 0;
+    border: 3px solid blue;
+    height: 50px;
+    background: pink;
+    font-size: 20px;
+    padding: 10px 24px;
+    cursor: pointer;
+    width: 50%;
+    display: block;
+    margin-top: 20px;
+}
+
+#game_question, #game_timer, .stats{
+    font-size: 20px;
+    text-align: center;
+}
+
+.t-remaining {
+    font-size: 20px;
+    text-align: center;
+}
+
+.answ-img {
+    width: 10px;
+    height: 10px;
+    text-align: center;
+}
