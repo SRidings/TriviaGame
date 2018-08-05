@@ -221,7 +221,8 @@ let app = function () {
         var q = questions.pop();
         if(q) {
             var src = '<div id="game_timer"></div>';
-            src += '<div id="game_question">In the 80s if you turned on your television and saw the characters Tootie, Blair and Natalie, what show would you be watching?</div>';
+            
+            src += '<div id="game_question">' + q.question + '</div>';
 
             src += '<div class="btn-group">';
             for(var i in q.options) {
